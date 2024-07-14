@@ -30,7 +30,7 @@ To run this app, you'll need to have Python installed on your machine. The app w
 2. Install the required libraries:
 
     ```bash
-    pip install -r requirements.txt
+    pip install streamlit plotly numpy pandas
     ```
 
 3. Run the Streamlit app:
@@ -49,3 +49,10 @@ Once the app is running, you can interact with the following features:
 - **Select Optimization Methods**: Choose one or more optimization algorithms to visualize.
 - **Adjust Parameters**: Modify parameters such as learning rate, momentum, decay rate, and number of steps.
 - **Download Optimization Path**: Download the computed optimization path as a CSV file.
+
+
+## Acknowledgments
+
+- The app was developed as part of a project to compare various continuous optimization methods.
+- Special thanks to my supervisor `[E. H. Bergou](https://ehbergou.github.io/)` for their guidance and support.
+
